@@ -1,0 +1,8 @@
+a.out
+*.o
+*.out
+rough*
+test
+.vscode
+
+zombie
