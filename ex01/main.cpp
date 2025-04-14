@@ -4,7 +4,7 @@ void testZombieHorde( int N, std::string name ) {
     try {
         Zombie* zombieArray = zombieHorde( N, name );
         for ( int i = 0; i < N; i++ ) {
-            zombieArray[ i ].announce();
+            zombieArray[i].announce();
         }
         delete[] zombieArray;
     } catch ( const std::bad_alloc& e ) {

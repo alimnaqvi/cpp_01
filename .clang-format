@@ -14,4 +14,4 @@ SortIncludes: false # true will keep includes tidy
 BreakConstructorInitializers: BeforeComma
 ConstructorInitializerAllOnOneLineOrOnePerLine: false
 SpacesInParentheses: true
-SpacesInSquareBrackets: true
+SpacesInSquareBrackets: false
