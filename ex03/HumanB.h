@@ -4,17 +4,18 @@
 #include "Weapon.h"
 #include <iostream>
 #include <string>
+#include <cstdlib>
 
 class HumanB {
   public:
-    HumanB(std::string initName);
+    HumanB( std::string initName );
     ~HumanB();
     void attack();
-    void setWeapon(Weapon& newWeapon);
+    void setWeapon( Weapon& newWeapon );
 
   private:
     std::string name;
-    Weapon*      weapon;
+    Weapon*     weapon;
 };
 
 #endif
