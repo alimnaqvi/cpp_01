@@ -31,6 +31,11 @@ int main( int argc, char **argv ) {
     std::string s1( argv[2] );
     std::string s2( argv[3] );
 
+    if (s1.length() == 0) {
+        std::cerr << "s1 (the text to replace) must have at least one character.\n";
+        return 1;
+    }
+
     size_t s1MatchPos( infileContent.find( s1 ) );
     while ( s1MatchPos != std::string::npos ) {
         infileContent.erase( s1MatchPos, s1.length() );
