@@ -6,7 +6,7 @@ ColumnLimit: 100 # Or 80, 120 - depends on preference/team standard
 AccessModifierOffset: -2 # Indent private/public/protected less than class members
 AlignConsecutiveAssignments: true
 AlignConsecutiveDeclarations: true
-AllowShortFunctionsOnASingleLine: None # Generally better for readability
+AllowShortFunctionsOnASingleLine: Empty # None is generally better for readability
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: false
 Cpp11BracedListStyle: true # Use C++11 braced initialization style formatting { ... }
