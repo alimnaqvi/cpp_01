@@ -5,6 +5,7 @@ rough*
 test
 .vscode
 .clang-format
+*.replace
 
 zombie
 zombieHorde

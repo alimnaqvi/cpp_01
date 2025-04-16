@@ -21,10 +21,13 @@ void Harl::filter( std::string level ) {
     switch ( complainLevel ) {
         case ComplainLevel::eDebug:
             debug();
+            [[fallthrough]];
         case ComplainLevel::eInfo:
             info();
+            [[fallthrough]];
         case ComplainLevel::eWarning:
             warning();
+            [[fallthrough]];
         case ComplainLevel::eError:
             error();
             return;
