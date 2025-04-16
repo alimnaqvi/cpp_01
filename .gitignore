@@ -4,6 +4,7 @@ a.out
 rough*
 test
 .vscode
+.clang-format
 
 zombie
 zombieHorde
@@ -11,3 +12,4 @@ hiThisIsBrain
 unnecessaryViolence
 sedIsForLosers
 harl
+harlFilter
