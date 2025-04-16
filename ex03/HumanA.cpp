@@ -1,8 +1,8 @@
 #include "HumanA.h"
 
 HumanA::HumanA( std::string initName, Weapon& initWeapon )
-    : name( initName )
-    , weapon( initWeapon )
+    : name{ initName }
+    , weapon{ initWeapon }
 {}
 
 HumanA::~HumanA() {}

@@ -2,9 +2,9 @@
 #include <string>
 
 int main() {
-    std::string  str( "HI THIS IS BRAIN" );
-    std::string* stringPTR( &str );
-    std::string& stringREF( str );
+    std::string  str{ "HI THIS IS BRAIN" };
+    std::string* stringPTR{ &str };
+    std::string& stringREF{ str };
 
     std::cout << "The memory address of the string variable (`str`): " << &str << '\n';
     std::cout << "The memory address held by the pointer to the string variable (`stringPTR`): " << stringPTR << '\n';

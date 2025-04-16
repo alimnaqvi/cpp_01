@@ -1,11 +1,11 @@
 #include "Zombie.h"
 
 Zombie::Zombie()
-    : name( "noName" )
+    : name{ "noName" }
 {}
 
 Zombie::Zombie( const std::string& initName )
-    : name( initName )
+    : name{ initName }
 {}
 
 Zombie::~Zombie() {

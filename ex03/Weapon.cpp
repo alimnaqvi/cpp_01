@@ -1,7 +1,7 @@
 #include "Weapon.h"
 
 Weapon::Weapon( std::string initType )
-    : type( initType )
+    : type{ initType }
 {}
 
 Weapon::~Weapon() {}

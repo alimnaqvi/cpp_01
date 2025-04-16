@@ -18,8 +18,8 @@ int main( int argc, char **argv ) {
         return 1;
     }
 
-    std::string infileContent( "" );
-    std::string buffer( "" );
+    std::string infileContent{ "" };
+    std::string buffer{ "" };
     while ( std::getline( infileStream, buffer ) ) {
         infileContent.append( buffer );
         if ( !infileStream.eof() )
@@ -28,22 +28,22 @@ int main( int argc, char **argv ) {
 
     infileStream.close();
 
-    std::string s1( argv[2] );
-    std::string s2( argv[3] );
+    std::string s1{ argv[2] };
+    std::string s2{ argv[3] };
 
     if (s1.length() == 0) {
         std::cerr << "s1 (the text to replace) must have at least one character.\n";
         return 1;
     }
 
-    size_t s1MatchPos( infileContent.find( s1 ) );
+    size_t s1MatchPos{ infileContent.find( s1 ) };
     while ( s1MatchPos != std::string::npos ) {
         infileContent.erase( s1MatchPos, s1.length() );
         infileContent.insert( s1MatchPos, s2 );
         s1MatchPos = infileContent.find( s1 );
     }
 
-    std::ofstream outfileStream( infileName.append( ".replace" ).c_str() );
+    std::ofstream outfileStream{ infileName.append( ".replace" ).c_str() };
     if ( !outfileStream ) {
         std::cerr << infileName.append( ".replace" ).c_str()
                   << " could not be opened for writing.\n";

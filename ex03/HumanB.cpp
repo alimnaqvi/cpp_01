@@ -1,8 +1,8 @@
 #include "HumanB.h"
 
 HumanB::HumanB( std::string initName )
-    : name( initName )
-    , weapon( NULL )
+    : name{ initName }
+    , weapon{ nullptr }
 {}
 
 HumanB::~HumanB() {}

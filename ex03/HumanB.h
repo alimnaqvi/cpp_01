@@ -4,7 +4,6 @@
 #include "Weapon.h"
 #include <iostream>
 #include <string>
-#include <cstdlib>
 
 class HumanB {
   public:
