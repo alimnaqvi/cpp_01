@@ -4,7 +4,7 @@ int main( int argc, char **argv ) {
     Harl harl;
 
     if ( argc != 2 ) {
-        std::cout << "The program takes only one argument" << '\n';
+        std::cout << "The program takes one and only one argument." << '\n';
         return 1;
     }
 
