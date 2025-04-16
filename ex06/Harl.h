@@ -4,8 +4,12 @@
 #include <string>
 #include <iostream>
 
-enum class complainLevel {
-  //
+enum class ComplainLevel {
+    eDebug,
+    eInfo,
+    eWarning,
+    eError,
+    eOther,
 };
 
 class Harl {
@@ -13,7 +17,7 @@ class Harl {
     Harl();
     ~Harl();
     void filter( std::string level );
-    void complain( std::string level );
+    // void complain( std::string level );
     typedef void ( Harl::*fcnPtr )();
 
   private:
