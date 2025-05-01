@@ -1,5 +1,8 @@
 # C++ Module 01: Memory, References, Pointers, and Control Flow
 
+[![C++ Programming](https://img.shields.io/badge/Language-C++-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B)
+[![Makefile](https://img.shields.io/badge/Build-Make-brightgreen.svg)](https://www.gnu.org/software/make/)
+
 This repository contains the solutions for C++ Module 01 of the 42 core curriculum. This module serves as an essential introduction to fundamental C++ concepts beyond basic syntax, focusing on memory management, the nuances of pointers and references, pointers to members, file streams, and advanced control flow with switch statements.
 
 ## Core Concepts Covered
