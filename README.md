@@ -21,6 +21,16 @@ Throughout these exercises, the following key C++ concepts are explored and appl
 *   **Control Flow Attributes:** Using `[[fallthrough]]` (C++17) to explicitly indicate intentional fallthrough in `switch` cases.
 *   **Makefile Basics:** Creating simple Makefiles to automate the compilation process (`all`, `clean`, `fclean`, `re` rules).
 
+## Learning resources
+
+* [Dynamic memory allocation with new and delete](https://www.learncpp.com/cpp-tutorial/dynamic-memory-allocation-with-new-and-delete/)
+* [Dynamically allocating arrays](https://www.learncpp.com/cpp-tutorial/dynamically-allocating-arrays/)
+* [**Chapter 12 - Compound Types: References and Pointers - LearnCpp.com**](https://www.learncpp.com/cpp-tutorial/introduction-to-compound-data-types/) (go through the entire chapter)
+* [Scoped enumerations (enum classes)](https://www.learncpp.com/cpp-tutorial/scoped-enumerations-enum-classes/)
+* [Basic file I/O](https://www.learncpp.com/cpp-tutorial/basic-file-io/)
+* [Switch statement basics](https://www.learncpp.com/cpp-tutorial/switch-statement-basics/)
+* [Switch fallthrough and scoping](https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/)
+
 ---
 
 ## Exercises
