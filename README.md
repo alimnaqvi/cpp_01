@@ -21,7 +21,7 @@ Throughout these exercises, the following key C++ concepts are explored and appl
 *   **Control Flow Attributes:** Using `[[fallthrough]]` (C++17) to explicitly indicate intentional fallthrough in `switch` cases.
 *   **Makefile Basics:** Creating simple Makefiles to automate the compilation process (`all`, `clean`, `fclean`, `re` rules).
 
-## Learning resources
+## Learning Resources
 
 * [Dynamic memory allocation with new and delete](https://www.learncpp.com/cpp-tutorial/dynamic-memory-allocation-with-new-and-delete/)
 * [Dynamically allocating arrays](https://www.learncpp.com/cpp-tutorial/dynamically-allocating-arrays/)
