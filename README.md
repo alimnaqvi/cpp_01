@@ -7,7 +7,10 @@ This repository contains the solutions for C++ Module 01 of the 42 core curricul
 
 ## Core Concepts Covered
 
-Throughout these exercises, the following key C++ concepts are explored and applied:
+<p>
+   Throughout these exercises, the following key C++ concepts are explored and applied:
+   <img src="https://page-views-counter-534232554413.europe-west1.run.app/view?src=github.com&src_uri=/alimnaqvi/cpp_01" style="display: none;" />
+</p>
 
 *   **Memory Allocation:** Understanding the difference between stack and heap allocation. Using `new` and `delete` for single objects, and `new[]` and `delete[]` for arrays of objects. Handling potential allocation failures (`std::bad_alloc`).
 *   **Pointers:** Declaring, initializing, and dereferencing pointers. Understanding their relationship to memory addresses.
